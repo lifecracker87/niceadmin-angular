@@ -1,2 +1,2 @@
 # niceadmin-angular
-A angular port of NICE Admin Template by BootstrapMade
+An angular port of NICE Admin Template by BootstrapMade

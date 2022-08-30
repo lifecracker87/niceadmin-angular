@@ -4,11 +4,11 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { CollapseModule } from 'ngx-bootstrap/collapse';
+import { TabsModule } from 'ngx-bootstrap/tabs';
 
 import { AppComponent } from './app.component';
 import { MinComponent } from './layouts/min.component';
 import { DashboardLayoutComponent } from './layouts/dashboardlayout.component';
-import { RouterModule } from '@angular/router';
 import { HeaderComponent } from './layouts/parts/header.component';
 import { SidebarComponent } from './layouts/parts/sidebar.component';
 import { SidebaritemComponent } from './layouts/parts/sidebaritem.component';
@@ -38,7 +38,7 @@ import { UserProfileComponent } from './user-profile/user-profile.component';
     BrowserAnimationsModule,
     BsDropdownModule.forRoot(),
     CollapseModule.forRoot(),
-    //RouterModule,
+    TabsModule.forRoot(),
     AppRoutingModule
   ],
   providers: [],

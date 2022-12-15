@@ -11,7 +11,7 @@ import { MinComponent } from './layouts/min.component';
 import { DashboardLayoutComponent } from './layouts/dashboardlayout.component';
 import { HeaderComponent } from './layouts/parts/header.component';
 import { SidebarComponent } from './layouts/parts/sidebar.component';
-import { SidebaritemComponent } from './layouts/parts/sidebaritem.component';
+import { SidebaritemComponent, SidebaritemInnerComponent } from './layouts/parts/sidebaritem.component';
 import { BlankPageComponent } from './blank-page/blank-page.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { LoginComponent } from './login/login.component';
@@ -27,6 +27,7 @@ import { UserProfileComponent } from './user-profile/user-profile.component';
     MinComponent,
     DashboardLayoutComponent,
     SidebaritemComponent,
+	SidebaritemInnerComponent,
     BlankPageComponent,
     DashboardComponent,
     LoginComponent,

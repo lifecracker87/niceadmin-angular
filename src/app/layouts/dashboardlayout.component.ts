@@ -12,7 +12,7 @@ import { Component, OnInit } from '@angular/core';
                 &copy; Copyright <strong><span>Truste Technology <a href="https://trustetechnology.com"><i class="bi bi-globe"></i></a></span></strong>. All Rights Reserved
               </div>
             </footer>
-            <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-circle"></i></a>`,
+            <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>`,
 })
 export class DashboardLayoutComponent implements OnInit {
   constructor() {}

@@ -1,12 +1,14 @@
 import { Component, OnInit } from '@angular/core';
+import { SidebaritemComponent } from './sidebaritem.component';
 
 @Component({
-  selector: 'app-sidebar',
-  template: `<aside id="sidebar" class="sidebar">
+    selector: 'app-sidebar',
+    template: `<aside id="sidebar" class="sidebar">
   <ul class="sidebar-nav" id="sidebar-nav">
     <app-sidebaritem [menuItems]="menuItems"></app-sidebaritem>
   </ul>
 </aside>`,
+    imports: [SidebaritemComponent]
 })
 export class SidebarComponent implements OnInit {
   menuItems: any = [];

@@ -1,8 +1,11 @@
 import { Component, OnInit } from '@angular/core';
+import { RouterOutlet } from '@angular/router';
+import { SidebarComponent } from './parts/sidebar.component';
+import { HeaderComponent } from './parts/header.component';
 
 @Component({
-  selector: 'app-main',
-  template: `<app-header></app-header>
+    selector: 'app-main',
+    template: `<app-header></app-header>
             <app-sidebar></app-sidebar>
             <main id="main" class="main">
               <router-outlet></router-outlet>
@@ -13,6 +16,11 @@ import { Component, OnInit } from '@angular/core';
               </div>
             </footer>
             <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>`,
+    imports: [
+        HeaderComponent,
+        SidebarComponent,
+        RouterOutlet,
+    ]
 })
 export class DashboardLayoutComponent implements OnInit {
   constructor() {}

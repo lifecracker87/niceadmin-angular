@@ -8,8 +8,8 @@ describe('BlankPageComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ BlankPageComponent ]
-    })
+    imports: [BlankPageComponent]
+})
     .compileComponents();
 
     fixture = TestBed.createComponent(BlankPageComponent);
